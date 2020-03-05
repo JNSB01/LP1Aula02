@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ValoresEspeciais
 {
@@ -6,12 +7,21 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             double dM = double.MaxValue;
             float fM = float.MaxValue;
-            int iM = int.MaxValue;
-            long lM = long.MaxValue;
-            short sM = short.MaxValue;
-            byte bM = byte.MaxValue;
+            uint iM = uint.MaxValue;
+            ulong lM = ulong.MaxValue;
+            ushort sM = ushort.MaxValue;
+            sbyte bM = sbyte.MaxValue;
+
+            float Pinf = float .PositiveInfinity;
+            float Ninf = float .NegativeInfinity;
+            float nan = float .NaN;
+
+            double PInf = double .PositiveInfinity;
+            double NInf = double .NegativeInfinity;
+            double Nan = double .NaN;
 
             Console.WriteLine(dM);
             Console.WriteLine(fM);
@@ -19,6 +29,9 @@ namespace ValoresEspeciais
             Console.WriteLine(lM);
             Console.WriteLine(sM);
             Console.WriteLine(bM);
+            Console.WriteLine("Floats infs and nan " + Pinf +" "+ Ninf + " " + nan);
+            Console.WriteLine("Double infs and nan " + PInf +" "+ NInf + " " + Nan);
+
         }
     }
 }
