@@ -24,8 +24,19 @@ namespace ValoresEspeciais
             double Nan = double .NaN;
 
             Console.WriteLine(dM);
+            Console.WriteLine(dM + 2);
+            dM = double.MinValue;
+            Console.WriteLine(dM);
+            Console.WriteLine(dM - 2);
+            Console.WriteLine(dM * 2);
             Console.WriteLine(fM);
+            Console.WriteLine(fM * 2);
+
             Console.WriteLine(iM);
+            Console.WriteLine(iM + 2);
+            Console.WriteLine(iM * 2);
+            iM = uint.MinValue;
+            Console.WriteLine(iM - 2);
             Console.WriteLine(lM);
             Console.WriteLine(sM);
             Console.WriteLine(bM);
