@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1", "Ex1\Ex1.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDec", "IncDec\IncDec.csproj", "{3A4E3251-3DA2-471A-8178-6D6E73389D4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilindro.csproj", "{209F17D6-AF1F-46A9-ACF2-463DCB521C35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{3A4E3251-3DA2-471A-8178-6D6E73389D4A}.Release|x64.Build.0 = Release|Any CPU
 		{3A4E3251-3DA2-471A-8178-6D6E73389D4A}.Release|x86.ActiveCfg = Release|Any CPU
 		{3A4E3251-3DA2-471A-8178-6D6E73389D4A}.Release|x86.Build.0 = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|x64.Build.0 = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Debug|x86.Build.0 = Debug|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|x64.ActiveCfg = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|x64.Build.0 = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|x86.ActiveCfg = Release|Any CPU
+		{209F17D6-AF1F-46A9-ACF2-463DCB521C35}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
