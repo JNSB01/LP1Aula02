@@ -31,6 +31,7 @@ namespace ValoresEspeciais
             Console.WriteLine(dM * 2);
             Console.WriteLine(fM);
             Console.WriteLine(fM * 2);
+            Console.WriteLine(fM + 1/999999999);
 
             Console.WriteLine(iM);
             Console.WriteLine(iM + 2);
